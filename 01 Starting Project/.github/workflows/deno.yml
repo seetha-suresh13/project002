@@ -2,9 +2,9 @@ name: Deployment
 on:
   push:
     branches:
-      - main
+      - master
       - dev
-      
+
   workflow_dispatch
 env:
   MANGODB_DB_NAME: see-demo
