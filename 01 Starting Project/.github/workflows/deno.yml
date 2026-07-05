@@ -1,11 +1,5 @@
 name: Deployment
-on:
-  push:
-    branches:
-      - master
-      - dev
-
-  workflow_dispatch
+on: push
 env:
   MANGODB_DB_NAME: see-demo
 jobs:
